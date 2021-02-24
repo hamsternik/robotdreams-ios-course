@@ -9,3 +9,4 @@
 ## Дополнительные материалы курса
 
 - [lecture #1](lecture-1/README.md)
+- [lecture #3](lecture-3/README.md)
