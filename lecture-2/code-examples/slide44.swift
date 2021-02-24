@@ -1,0 +1,3 @@
+protocol SomeProtocol {
+    // определение протокола…
+}
