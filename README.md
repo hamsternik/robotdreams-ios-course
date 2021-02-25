@@ -11,3 +11,5 @@
 - [Лекция #1](lecture-1/README.md)
 - [Лекция #2](lecture-2/README.md)
 - [Лекция #3](lecture-3/README.md)
+- [Лекция #4](lecture-4/README.md)
+- [Лекция #4. Домашнее задание](lecture-4/homework-2/homework02.md)
