@@ -8,6 +8,7 @@
 
 ## Дополнительные материалы курса
 
-- [lecture #1](lecture-1/README.md)
-- [lecture #3](lecture-3/README.md)
-- [lecture #4](lecture-3/README.md)
+- [Lecture #1](lecture-1/README.md)
+- [Lecture #3](lecture-3/README.md)
+- [Lecture #4](lecture-3/README.md)
+- [Lecture #4. Homework task](lecture-4/homework-2/homework02.md)
