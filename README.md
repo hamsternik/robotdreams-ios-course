@@ -10,5 +10,5 @@
 
 - [Lecture #1](lecture-1/README.md)
 - [Lecture #3](lecture-3/README.md)
-- [Lecture #4](lecture-3/README.md)
+- [Lecture #4](lecture-4/README.md)
 - [Lecture #4. Homework task](lecture-4/homework-2/homework02.md)
