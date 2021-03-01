@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Kickstarter Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="KickstarterLoginViewController" customModule="lecture05_project_start" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAL-rI-cWe">
+                                <rect key="frame" x="351" y="43" width="41" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Help">
+                                    <color key="titleColor" red="0.20784313725490194" green="0.52156862745098043" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kickstarter-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Po4-w8-j8a">
+                                <rect key="frame" x="107" y="194" width="200" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="BnB-xv-pTE"/>
+                                    <constraint firstAttribute="width" constant="200" id="Xj3-bI-Wtx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pledge to projects and view all your saved and backed projects in one place." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2k-Fh-fRg">
+                                <rect key="frame" x="44" y="253" width="326" height="79"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sn0-p0-PLZ">
+                                <rect key="frame" x="34" y="412" width="346" height="44"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="XaU-xZ-47i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Continue with Apple">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SV-Gl-K6B">
+                                <rect key="frame" x="34" y="472" width="346" height="44"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="a6o-Qz-o06"/>
+                                </constraints>
+                                <state key="normal" title="Continue with Facebook">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get notified when your friends back and launch projects" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDQ-lp-Dhh">
+                                <rect key="frame" x="44" y="532" width="326" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fdF-MS-QWs" userLabel="Separator">
+                                <rect key="frame" x="40" y="586.5" width="334" height="1"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="aiF-1x-H23"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pj-G2-UDe">
+                                <rect key="frame" x="34" y="627.5" width="346" height="44"/>
+                                <color key="backgroundColor" red="0.20784313725490194" green="0.52156862745098043" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Spl-5x-OMh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzx-p9-eBJ">
+                                <rect key="frame" x="34" y="687.5" width="346" height="44"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="bCu-sa-5wb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Log in">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.96078431372549022" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fdF-MS-QWs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="0CR-0t-nP2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cDQ-lp-Dhh" secondAttribute="trailing" constant="44" id="3S1-R8-aGg"/>
+                            <constraint firstItem="W2k-Fh-fRg" firstAttribute="top" secondItem="Po4-w8-j8a" secondAttribute="bottom" constant="24" id="F7p-Lz-fAi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sn0-p0-PLZ" secondAttribute="trailing" constant="34" id="GhE-CK-eOU"/>
+                            <constraint firstItem="2pj-G2-UDe" firstAttribute="top" secondItem="fdF-MS-QWs" secondAttribute="bottom" constant="40" id="IZh-BO-uLF"/>
+                            <constraint firstItem="2pj-G2-UDe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="M6d-Ep-Yxl"/>
+                            <constraint firstItem="lzx-p9-eBJ" firstAttribute="top" secondItem="2pj-G2-UDe" secondAttribute="bottom" constant="16" id="RQ7-Ba-8p2"/>
+                            <constraint firstItem="sn0-p0-PLZ" firstAttribute="top" secondItem="W2k-Fh-fRg" secondAttribute="bottom" constant="80" id="TRd-Kd-5gx"/>
+                            <constraint firstItem="sn0-p0-PLZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="VIj-lD-uw5"/>
+                            <constraint firstItem="fdF-MS-QWs" firstAttribute="top" secondItem="cDQ-lp-Dhh" secondAttribute="bottom" constant="40" id="WZm-VA-Xds"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W2k-Fh-fRg" secondAttribute="trailing" constant="44" id="X0E-Jy-ZwG"/>
+                            <constraint firstItem="lzx-p9-eBJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="aOR-hc-93z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lzx-p9-eBJ" secondAttribute="trailing" constant="34" id="as0-Da-KqM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2pj-G2-UDe" secondAttribute="trailing" constant="34" id="erb-U5-lUD"/>
+                            <constraint firstItem="cDQ-lp-Dhh" firstAttribute="top" secondItem="8SV-Gl-K6B" secondAttribute="bottom" constant="16" id="fb6-TA-K2m"/>
+                            <constraint firstItem="cDQ-lp-Dhh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="hYo-i8-Wwx"/>
+                            <constraint firstItem="Po4-w8-j8a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="lz3-pe-XDm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fdF-MS-QWs" secondAttribute="trailing" constant="20" id="nVb-FS-E8y"/>
+                            <constraint firstItem="8SV-Gl-K6B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="oM1-rr-v2h"/>
+                            <constraint firstItem="W2k-Fh-fRg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="qgj-a4-vy9"/>
+                            <constraint firstItem="Po4-w8-j8a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vjh-0G-HQt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8SV-Gl-K6B" secondAttribute="trailing" constant="34" id="wB4-gv-MGa"/>
+                            <constraint firstItem="8SV-Gl-K6B" firstAttribute="top" secondItem="sn0-p0-PLZ" secondAttribute="bottom" constant="16" id="y95-Fi-4Aq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="continueWithAppleButton" destination="sn0-p0-PLZ" id="b9k-dF-8h2"/>
+                        <outlet property="continueWithFacebookButton" destination="8SV-Gl-K6B" id="GQM-pb-xUR"/>
+                        <outlet property="logInButton" destination="lzx-p9-eBJ" id="hH2-wh-Det"/>
+                        <outlet property="signUpButton" destination="2pj-G2-UDe" id="kW0-ea-inU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.7971014492753632" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kickstarter-logo" width="960" height="102"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
