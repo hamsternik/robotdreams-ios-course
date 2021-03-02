@@ -10,7 +10,6 @@ import UIKit
 class KickstarterLoginViewController: UIViewController {
 
     override func viewDidLoad() {
-        UIScrollView
         super.viewDidLoad()
 
         configureContinueWithAppleButton()
