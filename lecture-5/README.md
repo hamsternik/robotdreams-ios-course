@@ -13,3 +13,5 @@
 - UIScrollView: добавление функции scroll на экран
 	- [# UIScrollView class](https://developer.apple.com/documentation/uikit/uiscrollview)
 	- [# Как работает UIScrollView](https://medium.com/@esskeetit/как-работает-uiscrollview-2e7052032d97)
+	- [# Easier Scrolling With Layout Guides](https://useyourloaf.com/blog/easier-scrolling-with-layout-guides/)
+	- [# Scroll View Layouts With Interface Builder](https://useyourloaf.com/blog/scroll-view-layouts-with-interface-builder/)

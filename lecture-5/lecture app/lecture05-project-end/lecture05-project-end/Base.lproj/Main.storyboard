@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3PI-xP-FLX">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Kickstarter Login View Controller-->
+        <scene sceneID="pag-dP-9a6">
+            <objects>
+                <viewController id="3PI-xP-FLX" customClass="KickstarterLoginViewController" customModule="lecture05_project_start" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h9E-9p-5xN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yve-aI-LiZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nVU-kz-sFm" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="735.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="EWb-UI-khU" userLabel="Content Stack View">
+                                                <rect key="frame" x="20" y="20" width="280" height="695.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WS2-px-o4H">
+                                                        <rect key="frame" x="239" y="0.0" width="41" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <state key="normal" title="Help">
+                                                            <color key="titleColor" red="0.20784313730000001" green="0.52156862749999999" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </state>
+                                                    </button>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="90" translatesAutoresizingMaskIntoConstraints="NO" id="ASl-Lg-Ysp" userLabel="Container Stack View">
+                                                        <rect key="frame" x="14" y="136" width="266" height="559.5"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Jeu-zn-hTj" userLabel="Header Stack View">
+                                                                <rect key="frame" x="0.0" y="0.0" width="266" height="138"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kickstarter-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Nys-1n-bQS">
+                                                                        <rect key="frame" x="33" y="0.0" width="200" height="35"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="35" id="3Dj-LL-bxW"/>
+                                                                            <constraint firstAttribute="width" constant="200" id="xxO-MS-HYw"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pledge to projects and view all your saved and backed projects in one place." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T3r-kW-6h3">
+                                                                        <rect key="frame" x="0.0" y="59" width="266" height="79"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="xIt-qE-Jqo" userLabel="All Buttons Stack View">
+                                                                <rect key="frame" x="0.0" y="228" width="266" height="331.5"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="c6N-iJ-tta" userLabel="Top Buttons And Description Stack View">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="266" height="146.5"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="NAk-es-BIG" userLabel="Top Buttons Stack View">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="266" height="104"/>
+                                                                                <subviews>
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7H-4B-6cj">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="266" height="44"/>
+                                                                                        <color key="backgroundColor" systemColor="labelColor"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstAttribute="height" constant="44" id="pJh-59-Ba7"/>
+                                                                                        </constraints>
+                                                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                        <state key="normal" title="Continue with Apple">
+                                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                        </state>
+                                                                                    </button>
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udB-15-veq">
+                                                                                        <rect key="frame" x="0.0" y="60" width="266" height="44"/>
+                                                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                                                        <constraints>
+                                                                                            <constraint firstAttribute="height" constant="44" id="sFc-bY-PqK"/>
+                                                                                        </constraints>
+                                                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                        <state key="normal" title="Continue with Facebook">
+                                                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                        </state>
+                                                                                    </button>
+                                                                                </subviews>
+                                                                            </stackView>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get notified when your friends back and launch projects" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgE-Wk-bUP">
+                                                                                <rect key="frame" x="0.0" y="120" width="266" height="26.5"/>
+                                                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                            </label>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n5d-4K-JvB" userLabel="Separator">
+                                                                        <rect key="frame" x="0.0" y="186.5" width="266" height="1"/>
+                                                                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="1" id="kd6-IB-HKS"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="t6R-Ue-jDL" userLabel="Bottom Buttons Stack View">
+                                                                        <rect key="frame" x="0.0" y="227.5" width="266" height="104"/>
+                                                                        <subviews>
+                                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRe-t0-aI4">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="266" height="44"/>
+                                                                                <color key="backgroundColor" red="0.20784313730000001" green="0.52156862749999999" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="44" id="e5c-eO-hZP"/>
+                                                                                </constraints>
+                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <state key="normal" title="Sign up">
+                                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                </state>
+                                                                            </button>
+                                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xql-tr-MVH">
+                                                                                <rect key="frame" x="0.0" y="60" width="266" height="44"/>
+                                                                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="height" constant="44" id="PHW-wX-Cgw"/>
+                                                                                </constraints>
+                                                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                                                <state key="normal" title="Log in">
+                                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                </state>
+                                                                            </button>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="EWb-UI-khU" secondAttribute="bottom" constant="20" id="1VD-Lc-JmY"/>
+                                            <constraint firstItem="EWb-UI-khU" firstAttribute="leading" secondItem="nVU-kz-sFm" secondAttribute="leading" constant="20" id="Bey-yd-Hfl"/>
+                                            <constraint firstAttribute="trailing" secondItem="EWb-UI-khU" secondAttribute="trailing" constant="20" id="VRk-vi-oih"/>
+                                            <constraint firstItem="EWb-UI-khU" firstAttribute="top" secondItem="nVU-kz-sFm" secondAttribute="top" constant="20" id="pIP-VQ-ge1"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="nVU-kz-sFm" secondAttribute="bottom" id="e4V-Zi-3ej"/>
+                                    <constraint firstAttribute="trailing" secondItem="nVU-kz-sFm" secondAttribute="trailing" id="eqp-zj-rma"/>
+                                    <constraint firstItem="nVU-kz-sFm" firstAttribute="width" secondItem="Yve-aI-LiZ" secondAttribute="width" id="kHZ-mV-y40"/>
+                                    <constraint firstItem="nVU-kz-sFm" firstAttribute="leading" secondItem="Yve-aI-LiZ" secondAttribute="leading" id="w55-9E-F34"/>
+                                    <constraint firstItem="nVU-kz-sFm" firstAttribute="top" secondItem="Yve-aI-LiZ" secondAttribute="top" id="xHX-xT-lol"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EEc-PH-H3w"/>
+                        <color key="backgroundColor" red="0.98039215690000003" green="0.96078431369999995" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yve-aI-LiZ" firstAttribute="top" secondItem="EEc-PH-H3w" secondAttribute="top" id="Ymb-ts-5tT"/>
+                            <constraint firstItem="Yve-aI-LiZ" firstAttribute="trailing" secondItem="EEc-PH-H3w" secondAttribute="trailing" id="aEC-ex-fyZ"/>
+                            <constraint firstItem="Yve-aI-LiZ" firstAttribute="leading" secondItem="EEc-PH-H3w" secondAttribute="leading" id="hAM-vQ-Uae"/>
+                            <constraint firstItem="Yve-aI-LiZ" firstAttribute="bottom" secondItem="EEc-PH-H3w" secondAttribute="bottom" id="o5r-Yd-sSs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="continueWithAppleButton" destination="H7H-4B-6cj" id="dnE-gU-d5T"/>
+                        <outlet property="continueWithFacebookButton" destination="udB-15-veq" id="Os1-n7-gjH"/>
+                        <outlet property="logInButton" destination="Xql-tr-MVH" id="HDM-ra-uoj"/>
+                        <outlet property="signUpButton" destination="RRe-t0-aI4" id="eOr-Il-yhm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F9e-QK-A06" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5.7971014492753632" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kickstarter-logo" width="960" height="102"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
