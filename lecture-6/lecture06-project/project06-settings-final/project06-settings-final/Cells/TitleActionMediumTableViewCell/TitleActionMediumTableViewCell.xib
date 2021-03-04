@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kjU-Uv-o0z" customClass="TitleActionMediumTableViewCell" customModule="project06_settings_final" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="483" height="108"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="airplane-mode" translatesAutoresizingMaskIntoConstraints="NO" id="COH-2V-Mi0" userLabel="Acc icon Image View">
+                    <rect key="frame" x="16" y="33" width="42" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="M3z-JZ-Q1m"/>
+                        <constraint firstAttribute="height" constant="42" id="NxU-UQ-8Lh"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airplane Mode" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AA-Z3-2CM">
+                    <rect key="frame" x="66" y="44" width="110.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron-right" translatesAutoresizingMaskIntoConstraints="NO" id="3I3-S2-SmB" userLabel="Right Arrow Image View">
+                    <rect key="frame" x="443" y="34" width="24" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="8vX-dl-nwu"/>
+                        <constraint firstAttribute="height" constant="40" id="nV4-0s-a50"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Peppa" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BiI-PZ-rXM">
+                    <rect key="frame" x="184.5" y="43.5" width="250.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="2AA-Z3-2CM" firstAttribute="centerY" secondItem="kjU-Uv-o0z" secondAttribute="centerY" id="3az-0h-kh5"/>
+                <constraint firstItem="3I3-S2-SmB" firstAttribute="leading" secondItem="BiI-PZ-rXM" secondAttribute="trailing" constant="8" id="INV-Jf-1Ur"/>
+                <constraint firstItem="3I3-S2-SmB" firstAttribute="centerY" secondItem="kjU-Uv-o0z" secondAttribute="centerY" id="K9T-45-wky"/>
+                <constraint firstItem="BiI-PZ-rXM" firstAttribute="leading" secondItem="2AA-Z3-2CM" secondAttribute="trailing" constant="8" id="KL0-0K-JJi"/>
+                <constraint firstAttribute="trailing" secondItem="3I3-S2-SmB" secondAttribute="trailing" constant="16" id="Wk1-dQ-LTR"/>
+                <constraint firstItem="BiI-PZ-rXM" firstAttribute="centerY" secondItem="kjU-Uv-o0z" secondAttribute="centerY" id="Y53-IS-tsl"/>
+                <constraint firstItem="2AA-Z3-2CM" firstAttribute="leading" secondItem="COH-2V-Mi0" secondAttribute="trailing" constant="8" id="cZw-fH-TEA"/>
+                <constraint firstItem="COH-2V-Mi0" firstAttribute="centerY" secondItem="kjU-Uv-o0z" secondAttribute="centerY" id="vKy-s5-vDQ"/>
+                <constraint firstItem="COH-2V-Mi0" firstAttribute="leading" secondItem="kjU-Uv-o0z" secondAttribute="leading" constant="16" id="ygJ-Df-7u6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftIconImageView" destination="COH-2V-Mi0" id="A3j-M0-6Gf"/>
+                <outlet property="rightActionStatus" destination="BiI-PZ-rXM" id="htf-vg-qfj"/>
+                <outlet property="rightArrow" destination="3I3-S2-SmB" id="Sp4-EW-9LY"/>
+                <outlet property="titleLabel" destination="2AA-Z3-2CM" id="znp-o6-HkW"/>
+            </connections>
+            <point key="canvasLocation" x="187.68115942028987" y="416.51785714285711"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="airplane-mode" width="100" height="100"/>
+        <image name="chevron-right" width="100" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
