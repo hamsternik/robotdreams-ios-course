@@ -10,4 +10,7 @@
 - [# Working with Table Views. Create a Table View](https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/CreateATableView.html)
 - [# How To Create a Custom UITableViewCell](https://betterprogramming.pub/how-to-create-custom-uitableviewcell-f4e69193bab)
 - [# Expanded TableView Cells](https://swiftbook.ru/post/tutorials/expanded-tableview-cells/) [RU]
+- [# Working with Self-Sizing Table View Cells](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/WorkingwithSelf-SizingTableViewCells.html)
+- [# StackOverflow: Using Auto Layout in UITableView for dynamic cell layouts & variable row heights](https://stackoverflow.com/questions/18746929/using-auto-layout-in-uitableview-for-dynamic-cell-layouts-variable-row-heights)
+- [# UITableView with multiple kinds of cells (also works on UICollectionView)](https://dev.to/fabriciomasiero/uitableview-with-multiple-kinds-of-cells-also-works-on-uicollectionview-1dch)
 - [# Inserting and Deleting Rows and Sections](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/TableView_iPhone/ManageInsertDeleteRow/ManageInsertDeleteRow.html)
