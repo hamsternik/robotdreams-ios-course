@@ -16,3 +16,5 @@
 - [Лекция №4. Домашнее задание](lecture-4/homework-2/homework02.md)
 - [Лекция №5](lecture-5/README.md)
 - [Лекция №6](lecture-6/README.md)
+- [Лекция №7](lecture-7/README.md)
+- [Лекция №7. Домашнее задание](lecture-7/homework-3/README.md)
