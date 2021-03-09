@@ -8,10 +8,11 @@
 
 ## Дополнительные материалы курса
 
-- [Лекция #1](lecture-1/README.md)
-- [Лекция #2](lecture-2/README.md)
-- [Лекция #3](lecture-3/README.md)
-- [Лекция #4](lecture-4/README.md)
-- [Лекция #4. Домашнее задание](lecture-4/homework-2/homework02.md)
-- [Лекция #5](lecture-5/README.md)
-- [Лекция #6](lecture-6/README.md)
+- [Лекция №1](lecture-1/README.md)
+- [Лекция №2](lecture-2/README.md)
+- [Лекция №2. Домашнее задание](lecture-2/homework01.playground)
+- [Лекция №3](lecture-3/README.md)
+- [Лекция №4](lecture-4/README.md)
+- [Лекция №4. Домашнее задание](lecture-4/homework-2/homework02.md)
+- [Лекция №5](lecture-5/README.md)
+- [Лекция №6](lecture-6/README.md)
