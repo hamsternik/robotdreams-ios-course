@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		6245A81125F70B49008E03FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245A81025F70B49008E03FA /* AppDelegate.swift */; };
 		6245A81325F70B49008E03FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245A81225F70B49008E03FA /* SceneDelegate.swift */; };
-		6245A81525F70B49008E03FA /* MusicLibraryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245A81425F70B49008E03FA /* MusicLibraryCollectionViewController.swift */; };
+		6245A81525F70B49008E03FA /* LibraryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6245A81425F70B49008E03FA /* LibraryCollectionViewController.swift */; };
 		6245A81825F70B49008E03FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6245A81625F70B49008E03FA /* Main.storyboard */; };
 		6245A81A25F70B4B008E03FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6245A81925F70B4B008E03FA /* Assets.xcassets */; };
 		6245A81D25F70B4B008E03FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6245A81B25F70B4B008E03FA /* LaunchScreen.storyboard */; };
+		6263D0E325F90A6A00458ED4 /* RecentlyAddedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6263D0E225F90A6A00458ED4 /* RecentlyAddedHeaderView.swift */; };
+		6263D0E725F90A7400458ED4 /* LibraryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6263D0E625F90A7400458ED4 /* LibraryHeaderView.swift */; };
+		6263D0EA25F90EAE00458ED4 /* RecentlyAddedHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6263D0E925F90EAE00458ED4 /* RecentlyAddedHeaderView.xib */; };
+		6263D0F025F90F8C00458ED4 /* LibraryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6263D0EF25F90F8C00458ED4 /* LibraryHeaderView.xib */; };
+		626C718025F7EA590017A7E4 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626C717F25F7EA590017A7E4 /* AlbumCollectionViewCell.swift */; };
+		626C718325F7EAB00017A7E4 /* AlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 626C718225F7EAB00017A7E4 /* AlbumCollectionViewCell.xib */; };
+		62A7868225F7D667005584B0 /* LibraryTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62A7868125F7D667005584B0 /* LibraryTypeCollectionViewCell.xib */; };
+		62A7868525F7E803005584B0 /* LibraryTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A7868425F7E803005584B0 /* LibraryTypeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6245A80D25F70B49008E03FA /* lecture07-final-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lecture07-final-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6245A81025F70B49008E03FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6245A81225F70B49008E03FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6245A81425F70B49008E03FA /* MusicLibraryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLibraryCollectionViewController.swift; sourceTree = "<group>"; };
+		6245A81425F70B49008E03FA /* LibraryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewController.swift; sourceTree = "<group>"; };
 		6245A81725F70B49008E03FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6245A81925F70B4B008E03FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6245A81C25F70B4B008E03FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6245A81E25F70B4B008E03FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6263D0E225F90A6A00458ED4 /* RecentlyAddedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyAddedHeaderView.swift; sourceTree = "<group>"; };
+		6263D0E625F90A7400458ED4 /* LibraryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryHeaderView.swift; sourceTree = "<group>"; };
+		6263D0E925F90EAE00458ED4 /* RecentlyAddedHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentlyAddedHeaderView.xib; sourceTree = "<group>"; };
+		6263D0EF25F90F8C00458ED4 /* LibraryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryHeaderView.xib; sourceTree = "<group>"; };
+		626C717F25F7EA590017A7E4 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		626C718225F7EAB00017A7E4 /* AlbumCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCollectionViewCell.xib; sourceTree = "<group>"; };
+		62A7868125F7D667005584B0 /* LibraryTypeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryTypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		62A7868425F7E803005584B0 /* LibraryTypeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTypeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,71 @@
 		6245A80F25F70B49008E03FA /* lecture07-final-project */ = {
 			isa = PBXGroup;
 			children = (
+				6263D0E125F90A4C00458ED4 /* Headers */,
+				62A7868025F7D62A005584B0 /* Cells */,
 				6245A81025F70B49008E03FA /* AppDelegate.swift */,
 				6245A81225F70B49008E03FA /* SceneDelegate.swift */,
-				6245A81425F70B49008E03FA /* MusicLibraryCollectionViewController.swift */,
+				6245A81425F70B49008E03FA /* LibraryCollectionViewController.swift */,
 				6245A81625F70B49008E03FA /* Main.storyboard */,
 				6245A81925F70B4B008E03FA /* Assets.xcassets */,
 				6245A81B25F70B4B008E03FA /* LaunchScreen.storyboard */,
 				6245A81E25F70B4B008E03FA /* Info.plist */,
 			);
 			path = "lecture07-final-project";
+			sourceTree = "<group>";
+		};
+		6263D0E125F90A4C00458ED4 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				6263D0F225F9245D00458ED4 /* LibraryHeaderView */,
+				6263D0F325F9246500458ED4 /* RecentlyAddedHeaderView */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		6263D0F225F9245D00458ED4 /* LibraryHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				6263D0E625F90A7400458ED4 /* LibraryHeaderView.swift */,
+				6263D0EF25F90F8C00458ED4 /* LibraryHeaderView.xib */,
+			);
+			path = LibraryHeaderView;
+			sourceTree = "<group>";
+		};
+		6263D0F325F9246500458ED4 /* RecentlyAddedHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				6263D0E225F90A6A00458ED4 /* RecentlyAddedHeaderView.swift */,
+				6263D0E925F90EAE00458ED4 /* RecentlyAddedHeaderView.xib */,
+			);
+			path = RecentlyAddedHeaderView;
+			sourceTree = "<group>";
+		};
+		626C717E25F7E9420017A7E4 /* AlbumCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				626C717F25F7EA590017A7E4 /* AlbumCollectionViewCell.swift */,
+				626C718225F7EAB00017A7E4 /* AlbumCollectionViewCell.xib */,
+			);
+			path = AlbumCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		62A7868025F7D62A005584B0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				62A7868725F7E809005584B0 /* LibraryTypeCollectionViewCell */,
+				626C717E25F7E9420017A7E4 /* AlbumCollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		62A7868725F7E809005584B0 /* LibraryTypeCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				62A7868425F7E803005584B0 /* LibraryTypeCollectionViewCell.swift */,
+				62A7868125F7D667005584B0 /* LibraryTypeCollectionViewCell.xib */,
+			);
+			path = LibraryTypeCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +196,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A7868225F7D667005584B0 /* LibraryTypeCollectionViewCell.xib in Resources */,
 				6245A81D25F70B4B008E03FA /* LaunchScreen.storyboard in Resources */,
+				626C718325F7EAB00017A7E4 /* AlbumCollectionViewCell.xib in Resources */,
+				6263D0EA25F90EAE00458ED4 /* RecentlyAddedHeaderView.xib in Resources */,
+				6263D0F025F90F8C00458ED4 /* LibraryHeaderView.xib in Resources */,
 				6245A81A25F70B4B008E03FA /* Assets.xcassets in Resources */,
 				6245A81825F70B49008E03FA /* Main.storyboard in Resources */,
 			);
@@ -137,9 +213,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6245A81525F70B49008E03FA /* MusicLibraryCollectionViewController.swift in Sources */,
+				62A7868525F7E803005584B0 /* LibraryTypeCollectionViewCell.swift in Sources */,
+				6245A81525F70B49008E03FA /* LibraryCollectionViewController.swift in Sources */,
 				6245A81125F70B49008E03FA /* AppDelegate.swift in Sources */,
 				6245A81325F70B49008E03FA /* SceneDelegate.swift in Sources */,
+				626C718025F7EA590017A7E4 /* AlbumCollectionViewCell.swift in Sources */,
+				6263D0E725F90A7400458ED4 /* LibraryHeaderView.swift in Sources */,
+				6263D0E325F90A6A00458ED4 /* RecentlyAddedHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
