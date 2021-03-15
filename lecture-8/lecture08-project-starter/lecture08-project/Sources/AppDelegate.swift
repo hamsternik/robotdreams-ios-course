@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  lecture08-project-final
+//  lecture08-project
 //
-//  Created by hamsternik on 11.03.2021.
+//  Created by hamsternik on 14.03.2021.
 //
 
 import UIKit
