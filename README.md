@@ -20,3 +20,4 @@
 - [Лекция №7. Домашнее задание](lecture-7/homework-3/README.md)
 - [Лекция №8](lecture-8/README.md)
 - [Лекция №9](lecture-9/README.md)
+- [Лекция №10](lecture-10/README.md)
