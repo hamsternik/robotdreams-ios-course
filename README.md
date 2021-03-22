@@ -22,3 +22,4 @@
 - [Лекция №9](lecture-9/README.md)
 - [Лекция №10](lecture-10/README.md)
 - [Лекция №10. Домашнее задание](lecture-10/homework-4/README.md)
+- [Лекция №11](lecture-11/README.md)
