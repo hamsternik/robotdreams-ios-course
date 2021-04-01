@@ -26,3 +26,4 @@
 - [Лекция №12](lecture-12/README.md)
 - [Лекция №13](lecture-13/README.md)
 - [Лекция №13. Домашнее задание](lecture-13/homework05/README.md)
+- [Лекция №14](lecture-14/README.md)
