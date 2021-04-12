@@ -8,3 +8,4 @@
 - [URLSession. Apple Documentation](https://developer.apple.com/documentation/foundation/urlsession)
 - [Музыкальное Приложение С Помощью NSURLSession](https://swiftbook.ru/post/tutorials/muzykalnoe-prilojenie-s-pomoshchyu-nsurlsession/)
 - [Почему NSURLSession лучше, чем NSURLConnection](https://m.habr.com/en/post/209736/)** - кто хочет глубже разобраться, как устроена `URLSession` в iOS
+- [Fetching Website Data into Memory](https://developer.apple.com/documentation/foundation/url_loading_system/fetching_website_data_into_memory) -- код практики лекции взят из этой статьи.
