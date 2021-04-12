@@ -13,6 +13,7 @@
 		6246AF8A2623D649004275E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6246AF882623D649004275E6 /* Main.storyboard */; };
 		6246AF8C2623D64A004275E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6246AF8B2623D64A004275E6 /* Assets.xcassets */; };
 		6246AF8F2623D64A004275E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6246AF8D2623D64A004275E6 /* LaunchScreen.storyboard */; };
+		62F1ACBB2624AFE700E8F566 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F1ACBA2624AFE700E8F566 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6246AF8B2623D64A004275E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6246AF8E2623D64A004275E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6246AF902623D64A004275E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F1ACBA2624AFE700E8F566 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				6246AF822623D649004275E6 /* AppDelegate.swift */,
 				6246AF842623D649004275E6 /* SceneDelegate.swift */,
 				6246AF862623D649004275E6 /* ViewController.swift */,
+				62F1ACBA2624AFE700E8F566 /* NetworkController.swift */,
 				6246AF882623D649004275E6 /* Main.storyboard */,
 				6246AF8B2623D64A004275E6 /* Assets.xcassets */,
 				6246AF8D2623D64A004275E6 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F1ACBB2624AFE700E8F566 /* NetworkController.swift in Sources */,
 				6246AF872623D649004275E6 /* ViewController.swift in Sources */,
 				6246AF832623D649004275E6 /* AppDelegate.swift in Sources */,
 				6246AF852623D649004275E6 /* SceneDelegate.swift in Sources */,
