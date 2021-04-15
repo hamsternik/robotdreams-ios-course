@@ -1,18 +1,18 @@
-# ios-from-scratch-course
+# Lecture #17
 
-## Чек-лист курса / iOS Devepopment
-https://docs.google.com/document/d/1e-BuyLXtF4skklFSWvjlKUG4Ukdn3eoyowvop0Dn6ow/edit
+### References
 
-## Sources
+#### Networking (URLSession)
 
-### lecture 01: Swift, основы
+- [URLSession Tutorial: Getting Started](https://www.raywenderlich.com/3244963-urlsession-tutorial-getting-started)
+- [Implementing In-App Purchases without Keychain and UserDefaults (Updated for Xcode 12)](https://rdovhaliuk.medium.com/implementing-in-app-purchases-without-keychain-and-userdefaults-52a43c0f76e8)
+- [How to Isolate Client-Server Interaction Logic in iOS Applications](https://www.toptal.com/ios/isolate-client-server-interaction-logic-ios)
+- [Writing a Scalable API Client in Swift 5](https://medium.com/makingtuenti/writing-a-scalable-api-client-in-swift-4-b3c6f7f3f3fb)
+- [Networking in Swift with URLSession](https://learnappmaking.com/urlsession-swift-networking-how-to/)
 
-- https://swiftbook.ru/content/languageguide/basics/ — раздел про переменные, константы, типы данных.
-- https://swiftbook.ru/content/languageguide/control-flow/ — про условные операторы и циклы.
-- https://swiftbook.ru/content/languageguide/collection-types/ — про структуры данных, массивы.
-- https://swiftbook.ru/content/languageguide/functions/ — про функции и их применение.
-- https://www.mann-ivanov-ferber.ru/books/swift-dlya-detej/ — отсюда брал часть информации про переменные и константы, очень доступно обьясняется материал.
+#### Storaging (UserDefaults)
 
-### lecture 02: основы OOP
-
-- Swift для детей. Глава #8 "пользовательские классы и структуры".
+- [How to use UserDefaults in Swift](https://www.simpleswiftguide.com/how-to-use-userdefaults-in-swift/)
+- [UserDefaults Limitations and Alternatives](https://jeffreyfulton.ca/blog/2018/02/userdefaults-limitations-and-alternatives)
+- [Ray Wenderlich. Chapter 18. User Defaults](https://www.raywenderlich.com/books/ios-apprentice/v8.3/chapters/18-user-defaults)
+- [Dependency Injection in iOS – Not so Scary Syringes](https://softwarehut.com/blog/tech/dependency-injection-in-ios-not-so-scary-syringes)
